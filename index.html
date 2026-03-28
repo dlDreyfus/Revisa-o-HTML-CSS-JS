@@ -1,0 +1,69 @@
+<!DOCTYPE html> <!-- Define que este documento é do tipo HTML5. -->
+<html lang="pt-BR"> <!-- Tag raiz do documento. O atributo lang define o idioma da página como Português do Brasil. -->
+    
+    <head> <!-- Seção que contém metadados, links e configurações não visíveis diretamente na página. -->
+        <script src="script.js" defer></script> <!-- Link para um arquivo JavaScript externo chamado script.js, que contém o código de interatividade para a página. O atributo defer garante que o script seja carregado após o HTML ser processado. -->
+        <link rel="stylesheet" href="style.css"> <!-- Link para um arquivo CSS externo chamado estilo.css, que contém as regras de estilo para a página. -->
+        <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8, essencial para exibir corretamente acentos e cedilha. -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Regra de responsividade: faz a página se adaptar à largura de telas de celulares e tablets. -->
+        <meta name="description" content="Blog de Tecnologia e Concursos com notícias, cursos e dicas de estudo."> <!-- Descrição do site para SEO e compartilhamento. -->
+        <title>DREYFUS</title> <!-- O título que aparecerá na aba do navegador e ao salvar nos favoritos. -->
+    </head> <!-- Fim da seção de metadados (head). -->
+    
+    <body> <!-- A tag body guarda todo o conteúdo visual do seu site, como textos, imagens e botões. -->
+        
+        <header> <!-- Tag de cabeçalho, usada para agrupar elementos de introdução ou navegação. -->
+            <nav> <!-- Tag de navegação, usada para definir um bloco de links de navegação. -->
+                <ul> <!-- Lista não ordenada para organizar os links de navegação. -->
+                    <li><a href="#">Home</a></li> <!-- Item 1 da lista de navegação, com um link (a) que atualmente não leva a lugar algum (href="#"). -->
+                    <li><a href="#">Sobre</a></li> <!-- Item 2 da lista de navegação. -->
+                    <li><a href="#">Contato</a></li> <!-- Item 3 da lista de navegação. -->
+                </ul> <!-- Fim da lista de navegação. -->
+
+                <button id="btn-tema">Modo Noturno</button> <!-- Botão para alternar entre modo claro e escuro, com um ID para ser manipulado via JavaScript. -->
+            </nav> <!-- Fim da tag de navegação. -->
+        </header> <!-- Fim da tag de cabeçalho. -->    
+        
+        <main> <!-- Tag principal, usada para destacar o conteúdo central da página. -->
+            <section id="artigos"> <!-- Tag de seção, usada para agrupar conteúdo relacionado. -->
+                <h1>Bem-vindo ao Blog de Tecnologia e Concursos! Título com a tag H1</h1> <!-- Título principal da página, usando a tag h1 para destacar a importância. -->
+        
+                <article><!-- Tag de artigo, usada para definir um bloco de conteúdo independente, como uma publicação em um blog. -->
+                    <h2>Últimas Notícias! Título com a tag H2</h2> <!-- Subtítulo para a seção de notícias, usando a tag h2 para hierarquia. -->
+                    <p>Este é um parágrafo de exemplo para mostrar como o texto é exibido em um site. Você pode adicionar quantos parágrafos quiser para fornecer informações aos seus visitantes.</p> <!-- Parágrafo de texto, usando a tag p para organizar o conteúdo. -->
+                    <img src="https://picsum.photos/800/400" alt="Imagem de exemplo" loading="lazy"> <!-- Tag de imagem, onde src define o caminho da imagem e alt fornece uma descrição alternativa para acessibilidade. -->
+                    <a href="https://pt.dreamstime.com/imagem-de-stock-editorial-paisagem-da-cidade-moderna-china-hangzhou-image76163154">Ler mais...</a>
+                </article> <!-- Fim da tag de artigo. -->
+
+                <article> <!-- Tag de artigo, usada para definir um bloco de conteúdo independente, como uma publicação em um blog. -->
+                    <h3>Novos Cursos! Título com a tag H3</h3> <!-- Subtítulo para a seção de cursos, usando a tag h3 para hierarquia. -->
+                    <h4>Dicas de Estudo! Título com a tag H4</h4> <!-- Subtítulo para a seção de dicas, usando a tag h4 para hierarquia. -->
+                    <h5>Entrevistas Exclusivas! Título com a tag H5</h5> <!-- Subtítulo para a seção de entrevistas, usando a tag h5 para hierarquia. -->
+                    <h6>Eventos e Webinars! Título com a tag H6</h6> <!-- Subtítulo para a seção de eventos, usando a tag h6 para hierarquia -->
+                    <img src="imagemTesteLocal.jpg" alt="Segunda imagem de exemplo" loading="lazy"> <!-- Segunda imagem, usando a mesma estrutura da tag img. -->
+                    <a href="https://pt.dreamstime.com/imagem-de-stock-editorial-paisagem-da-cidade-moderna-china-hangzhou-image76163154">Ler mais...</a>
+                </article> <!-- Fim da tag de artigo. -->
+            </section> <!-- Fim da seção de artigos. -->
+
+            <aside><!-- Barra lateral -->
+                <h3>Barra Lateral</h3> <!-- Título para a barra lateral, usando a tag h3. -->
+                 <ol> <!-- Lista ordenada, onde os itens são numerados automaticamente. -->
+                    <li><a href="https://pt.dreamstime.com/imagem-de-stock-editorial-paisagem-da-cidade-moderna-china-hangzhou-image76163154">Primeiro item da lista ordenada</a></li> <!-- Item 1 da lista ordenada. -->
+                    <li><a href="https://pt.dreamstime.com/imagem-de-stock-editorial-paisagem-da-cidade-moderna-china-hangzhou-image76163154">Segundo item da lista ordenada</a></li> <!-- Item 2 da lista ordenada. -->
+                    <li><a href="https://pt.dreamstime.com/imagem-de-stock-editorial-paisagem-da-cidade-moderna-china-hangzhou-image76163154">Terceiro item da lista ordenada</a></li> <!-- Item 3 da lista ordenada. -->
+                </ol> <!-- Fim da lista ordenada. -->
+
+                <ul> <!-- Lista não ordenada, onde os itens são marcados com bullets. -->
+                            <li><a href="https://pt.dreamstime.com/imagem-de-stock-editorial-paisagem-da-cidade-moderna-china-hangzhou-image76163154">Primeiro item da lista não ordenada</a></li> <!-- Item 1 da lista não ordenada. -->
+                            <li><a href="https://pt.dreamstime.com/imagem-de-stock-editorial-paisagem-da-cidade-moderna-china-hangzhou-image76163154">Segundo item da lista não ordenada</a></li> <!-- Item 2 da lista não ordenada. -->
+                            <li><a href="https://pt.dreamstime.com/imagem-de-stock-editorial-paisagem-da-cidade-moderna-china-hangzhou-image76163154">Terceiro item da lista não ordenada</a></li> <!-- Item 3 da lista não ordenada. -->
+                </ul> <!-- Fim da lista não ordenada. -->
+            </aside> <!-- Fim da barra lateral. -->
+        </main> <!-- Fim da tag principal. -->
+
+            <footer> <!-- Tag de rodapé, usada para agrupar informações de copyright, links de contato, etc. -->
+                <p>&copy; 2026 DREYFUS. Todos os direitos reservados.</p> <!-- Parágrafo com símbolo de copyright e informações de direitos autorais. -->
+            </footer> <!-- Fim da tag de rodapé. -->
+
+    </body> <!-- Fim da seção de conteúdo (body). -->
+</html> <!-- Fim do documento HTML. -->

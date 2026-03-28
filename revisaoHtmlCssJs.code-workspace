@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"editor.quickSuggestions": {
+			"other": false,
+			"comments": false,
+			"strings": false
+		},
+		"editor.suggestOnTriggerCharacters": false,
+		"editor.wordBasedSuggestions": "off",
+		"editor.snippetSuggestions": "none",
+		"editor.parameterHints.enabled": false,
+		"editor.hover.enabled": "off",
+		"html.autoClosingTags": false,
+		"html.autoCreateQuotes": false,
+		"js/ts.suggest.enabled": false,
+		"css.suggest.enabled": false,
+		"html.suggest.html5": false
+	}
+}
