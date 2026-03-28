@@ -147,6 +147,38 @@ aside ul li {
     padding-left: 10px; /* Espaçamento à esquerda para os itens da lista */
 }
 
+/********** Estilos para a Tabela **********/
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove o espaço duplo entre as bordas */
+    margin: 20px 0;
+    background-color: #ffffff;
+}
+
+table thead tr {
+    background-color: #4CAF50; /* Verde combinando com o cabeçalho do site */
+    color: #ffffff;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px 15px; /* Mais espaço interno para respiro */
+    border: 1px solid #ddd;
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: #f9f9f9; /* Efeito zebrado (linhas alternadas com fundo levemente cinza) */
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1; /* Destaca a linha inteira ao passar o mouse */
+}
+
+table tfoot tr {
+    font-weight: bold;
+    background-color: #e0e0e0;
+}
+
 @media (max-width: 860px) {
     header nav ul {
         flex-direction: column; /* Menu em coluna para facilitar toque */
@@ -216,4 +248,31 @@ body.modo-escuro aside {
 
 #btn-tema:hover {
     background-color: #555;
+}
+
+/* Estilos da Tabela no Modo Escuro */
+body.modo-escuro table {
+    background-color: #2c2c2c;
+}
+
+body.modo-escuro table thead tr {
+    background-color: #1a5e20; /* Verde mais escuro para não ofuscar a visão */
+}
+
+body.modo-escuro th,
+body.modo-escuro td {
+    border: 1px solid #444; /* Bordas mais suaves no tema escuro */
+}
+
+body.modo-escuro table tbody tr:nth-of-type(even) {
+    background-color: #383838; /* Zebrado em tons escuros */
+}
+
+body.modo-escuro table tbody tr:hover {
+    background-color: #4a4a4a;
+}
+
+body.modo-escuro table tfoot tr {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
 }
